@@ -1,0 +1,136 @@
+		#newest-results {
+			padding: 0px 15px;
+			border-bottom: 10px solid #f2f2f2;
+		}
+		
+		#newest-results> h1,
+		#all-precious> h1 {
+			font-size: 15px;
+			font-weight: 600;
+			margin: 13px 0px;
+			padding-left: 5px;
+			position: relative;
+		}
+		
+		#newest-results> h1::before,
+		#all-precious> h1::before {
+			position: absolute;
+			content: "";
+			width: 2px;
+			height: 15px;
+			background-color: #F84241;
+			left: 1px;
+			top: 0px;
+			border-radius: 4px;
+		}
+		
+		#newest-results> .result-list-wrap> ul,
+		#all-precious .all-precious-wrap> ul {
+			font-size: 0px;
+		}
+		
+		#newest-results> .result-list-wrap> ul> li {
+			width: 32.8%;
+			display: inline-block;
+			padding-bottom: 10px;
+		}
+		
+		#newest-results> .result-list-wrap> ul> li+ li {
+			margin-left: 0.8%;
+		}
+		
+		#newest-results> .result-list-wrap> ul> li> a> p {
+			font-size: 13px;
+			color: #000;
+			margin: 0px;
+			margin-top: 5px;
+			height: 30px;
+			overflow: hidden;
+		}
+		
+		#newest-results> .result-list-wrap> ul> li> a>.time-counter {
+			font-size: 12px;
+			color: #F84241;
+			text-align: center;
+			display: block;
+			margin-top: 5px;
+		}
+		
+		#newest-results> .result-list-wrap> ul> li> a>.time-counter i {
+			color: #fff;
+			padding: 1px;
+			display: inline-block;
+			background-color: #F84241;
+			border-radius: 2px;
+			line-height: 14px;
+			margin: 0px;
+		}
+		/*全部宝物*/
+		
+		#all-precious {
+			padding: 0px 15px;
+		}
+		
+		#all-precious .all-precious-wrap {}
+		
+		#all-precious .all-precious-wrap ul {}
+		
+		#all-precious .all-precious-wrap> ul> li {
+			width: 49.2%;
+			display: inline-block;
+			padding-bottom: 10px;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li:nth-child(2n){
+			margin-left: 1.6%;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li h1 {
+			font-size: 13px;
+			color: #000;
+			margin: 0px;
+			margin-top: 5px;
+			height: 18px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar> p {
+			margin: 0px;
+			font-size: 12px;
+			color: #6a6a6a;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar span.pull-left {
+			width: 65%;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar span.pull-right {
+			text-align: left;
+			width: 30%;
+			color: #F84241;
+			font-size: .625rem;
+			margin-left: 5px;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar .progress-bar-wrap {
+			position: relative;
+			margin-top: 5px;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar .progress-bar-under {
+			position: absolute;
+			width: 100%;
+			height: 4px;
+			background-color: #c6c6c6;
+			border-radius: 10px;
+		}
+		
+		#all-precious .all-precious-wrap> ul> li .my-progress-bar .progress-bar-on {
+			position: absolute;
+			width: 76%;
+			height: 4px;
+			background-color: #f84241;
+			border-radius: 10px;
+		}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/edit-address.css" />
+		
+		<title>选择地址</title>
+	</head>
+	<style type="text/css">
+
+	</style>
+
+	<body style="">
+		<header id="header" class="hasbdb">
+			<span class="header-wrap">	
+				<a href="javascript:history.back(1)" class="back pull-left"><img src="img/arrow-dash.png"/></a>
+				<h1>管理地址</h1>
+			</span>
+		</header>
+		<section id="address-list-wrap">
+			<div class="address-list-item">
+				<div class="info-span-wrap info-span-wrap2">
+					<span class="info-span">
+					<p class="p1">邓思思&nbsp;15079055027</p>
+					<p class="p2">广东省深圳市宝安西乡流塘派出所广东省深圳市宝安西乡流塘派出所</p>
+				</span>
+				</div>
+				<div class="icon-wrap clearfix">
+					<div class="fl set-to-default">
+						<i class="i1"><img src="img/No_box.png" width="15px" alt="" />&nbsp;设为默认</i>
+					</div>
+					<div class="fr edit-del">
+						<a href="add-address.html" class="edit-a"><img src="img/edit@2x.png" width="15px" alt="" />&nbsp;编辑</a>
+						<a class="add-a"><img src="img/delete@2x.png" width="15px" alt="" />&nbsp;删除</a>
+					</div>
+				</div>
+			</div>
+			<div class="address-list-item">
+				<div class="info-span-wrap info-span-wrap2">
+					<span class="info-span">
+					<p class="p1">邓思思&nbsp;15079055027</p>
+					<p class="p2">广东省深圳市宝安西乡流塘派出所广东省深圳市宝安西乡流塘派出所</p>
+				</span>
+				</div>
+				<div class="icon-wrap clearfix">
+					<div class="fl set-to-default">
+						<i class="i1"><img src="img/No_box.png" width="15px" alt="" />&nbsp;设为默认</i>
+					</div>
+					<div class="fr edit-del">
+						<a href="add-address.html" class="edit-a"><img src="img/edit@2x.png" width="15px" alt="" />&nbsp;编辑</a>
+						<a class="add-a"><img src="img/delete@2x.png" width="15px" alt="" />&nbsp;删除</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	<script src="lib/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(document).on('click', '.set-to-default', function(e) {
+			var target = $(e.currentTarget);
+			$('.set-to-default img').attr('src', 'img/No_box.png')
+			target.find("img").attr('src', 'img/selected_comfirm.png');
+		})
+	</script>
+
+</html>

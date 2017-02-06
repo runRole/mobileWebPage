@@ -1,0 +1,69 @@
+		#record-info .winner-wrap {
+			padding: 0 15px;
+			background-color: #fff;
+		}
+		
+		#record-info .winner-wrap .winner-info {
+			padding-top: 10px;
+			margin-left: 60px;
+			position: relative;
+		}
+		
+		#record-info .winner-wrap .winner-info-wrap {
+			border-top: 1px solid #dbdbdb;
+		}
+		
+		#record-info .winner-wrap .winner-info .right {
+			width: 100%;
+		}
+		
+		#record-info .winner-wrap .winner-info .winner-icon {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			width: 40px;
+			height: 36px;
+		}
+		
+		.btn-calu-details {
+			padding: 3px 10px;
+			border-radius: 3px;
+		}
+		
+		.winner-info p {
+			color: #6a6a6a;
+		}
+		
+		.winner-info .lucky-num {
+			margin: 15px 0;
+		}
+		
+		.winner-info .lucky-num> .i1 {
+			color: #f84241;
+			margin-top: 5px;
+			display: inline-block;
+			font-size: 0.975rem;
+		}
+		
+		#record-info .winner-num {
+			padding: 5px 15px;
+			position: relative;
+		}
+		
+		#record-info .winner-num p {
+			font-size: 0.9125rem;
+			line-height: 20px;
+			color: #6a6a6a;
+			margin: 0px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		#record-info .winner-num .see-whole-num{
+			position: absolute;
+			top: 25px;
+			right: 15px;
+			line-height: 20px;
+			color: #F84241;
+			font-size: .9rem;
+		}

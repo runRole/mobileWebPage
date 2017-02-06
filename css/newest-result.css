@@ -1,0 +1,55 @@
+		#newest-results-list> .results-list-wrap> ul {
+			font-size: 0px;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li {
+			width: 50%;
+			display: inline-block;
+			margin-top: -1px;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div {
+			border-bottom: .5px solid #f2f2f2;
+			padding: 5px;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li:nth-child(2n)> div {
+			border-left: .5px solid #f2f2f2;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a h1 {
+			font-size: 13px;
+			color: #000;
+			margin: 0px;
+			margin-top: 5px;
+			height: 18px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			padding: 0 5px;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a span {
+			padding: 1px;
+			display: block;
+			color: #6a6a6a;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a span i {
+			font-size: .6125rem;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a span i.winner-name {
+			color: green;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a span.winner-num {
+			color: #F84241;
+		}
+		
+		#newest-results-list> .results-list-wrap> ul> li> div> a span i:nth-child(2) {
+			padding-left: 5px;
+		}

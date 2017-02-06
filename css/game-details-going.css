@@ -1,0 +1,237 @@
+body{
+		background-color: #f2f2f2;
+}
+.stuff-list ul li.li-right {
+	margin-left: 2%;
+}
+
+.switch-bottom-tab {
+	border-top: 1px solid #e5e5e5;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+}
+
+.switch-bottom-tab .store-tab ul li img {
+	width: 27px;
+	padding-top: 0px;
+}
+
+.switch-bottom-tab .store-tab ul li p {
+	font-size: 0.6125rem;
+	color: #666;
+	margin-top: 0px;
+}
+
+.switch-bottom-tab .store-tab ul li.cur p {
+	color: #FFA803;
+}
+
+.game-info {
+	position: relative;
+	padding: 0 10px;
+	background-color: #fff;
+}
+
+.game-info .stuff-desc {
+	width: 100%;
+}
+
+.stuff-desc .stutas {
+	position: absolute;
+	right: 12px;
+	width: 65px;
+	text-align: right;
+	top: 10px;
+}
+
+.stuff-desc .stutas span {
+	display: inline-block;
+	width: 45px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 3px;
+	background-color: #f84241;
+	color: #fff;
+	text-align: center;
+	font-size: 0.6125rem;
+}
+
+.stuff-desc .stuff-desc-details {
+	padding: 10px 0px;
+	padding-right: 65px;
+}
+
+.stuff-desc .stuff-desc-details> h5 {
+	line-height: 18px;
+	margin: 0;
+}
+
+.game-progress {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.game-progress .progress-bar-under {
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	background-color: #c6c6c6;
+	border-radius: 10px;
+}
+
+.game-progress .progress-bar-on {
+	position: absolute;
+	width: 76%;
+	height: 4px;
+	background-color: #f84241;
+	border-radius: 10px;
+}
+
+.game-progress .progress-words {
+	font-size: .75rem;
+	position: absolute;
+	padding: 2px 3px;
+	background-color: #f84241;
+	color: #fff;
+	top: -8px;
+	border-radius: 10px;
+	z-index: 2;
+}
+
+.game-progress .game-in-progress i {
+	color: #666;
+	font-size: 0.8rem;
+}
+
+.join-record {
+	padding: 0 18px;
+	background-color: #fff;
+}
+
+.join-record .p-title {
+	height: 45px;
+	line-height: 45px;
+	font-size: 0.8125rem;
+	margin-bottom: 0px;
+}
+
+.left-img {
+	display: inline-block;
+	width: 60px;
+	position: absolute;
+	left: -60px;
+}
+
+.left-img i {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	text-align: left;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.game-ul-list li .right {
+	position: absolute;
+	width: 100%;
+}
+
+.left-img img {
+	width: 50px;
+}
+
+.game-ul-list li {
+	padding-top: 10px;
+	margin-left: 60px;
+	position: relative;
+	height: 65px;
+}
+
+.jion-game-list {
+	position: relative;
+	padding: 0 15px;
+	background-color: #fff;
+}
+
+.game-ul-list {
+	z-index: 3;
+}
+
+.game-ul-list li .username {
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+.game-ul-list li p i {
+	margin-right: 5px;
+	font-size: 0.6125rem;
+}
+
+.jion-game-list .bg-line {
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	background-color: #ababad;
+	left: 39px;
+	z-index: -2;
+}
+
+#record-info .stat> p {
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #e5e5e5;
+	background-color: #fafafa;
+	color: #666;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#record-info .reword-record {
+	height: 45px;
+	line-height: 45px;
+	background-color: #fff;
+	word-wrap: break-word;
+	overflow: hidden;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#record-info .reword-record h5 {
+	margin: 0px;
+	line-height: 45px;
+}
+
+#record-info .join-nums {
+	padding-top: 5px;
+}
+
+#record-info .join-nums span {
+	font-size: 0.75rem;
+}
+
+#record-info .join-nums .totle {
+	color: #000;
+	padding-right: 5px;
+}
+
+#record-info .join-nums .already-join {
+	color: #F84241;
+}
+
+#record-info .reword-record i {
+	/*position: absolute;*/
+	/*top: 0px;*/
+}
+
+.switch-bottom-tab .btn-width {
+	padding: 6px 0px;
+	width: 70%;
+}

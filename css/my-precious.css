@@ -1,0 +1,220 @@
+		body {
+			background-color: #f2f2f2;
+		}
+		
+		
+		
+		#my-property {
+			height: 40px;
+			line-height: 40px;
+			font-size: 0.75rem;
+			padding: 0px 15px;
+			background-color: #f2f2f2;
+		}
+		
+		#my-property> i {
+			color: #F84241;
+			padding-left: 5px;
+		}
+		
+		#tab {
+			background-color: #fff;
+		}
+		
+		#tab .ul-wapper> .nav-pills> li.active> a,
+		#tab .ul-wapper> .nav-pills> li.active> a:hover,
+		#tab .ul-wapper> .nav-pills> li.active> a:focus {
+			background-color: transparent;
+			border: 0;
+			border-bottom: 2px solid #F84241;
+			color: #F84241;
+		}
+		
+		#tab .ul-wapper> .nav-pills> li {
+			width: 33.3%;
+			height: 42px;
+			line-height: 42px;
+			text-align: center;
+		}
+		
+		#tab .ul-wapper .nav {
+			border-bottom: 2px solid #f2f2f2;
+		}
+		
+		#tab .ul-wapper> .nav-pills> li> a {
+			font-size: .9375rem;
+			margin: 0px;
+			border-radius: 0px;
+			display: inline-block;
+			padding: 0 2px;
+			color: #000;
+		}
+		
+		#tab .tab-content> .tab-pane .tabpanel-during {
+			padding: 5px 15px;
+			height: 125px;
+		}
+		
+		#tab .tabpanel-during-up .tabpanel-during-up-wrap {
+			position: relative;
+		}
+		
+		#tab .tabpanel-during-up .tabpanel-during-up-wrap .left-img {
+			display: inline-block;
+			width: 70px;
+		}
+		
+		#tab .tabpanel-during-up .tabpanel-during-up-wrap .left-img img {
+			width: 100%;
+		}
+		
+		#tab .tabpanel-during-up .tabpanel-during-up-wrap .right-content {
+			position: absolute;
+			width: 100%;
+			padding-left: 70px;
+		}
+		
+		#tab .tabpanel-during-up .right-content h1 {
+			font-size: 0.9375rem;
+			margin: 5px 0;
+			text-align: justify;
+			line-height: 18px;
+		}
+		
+		#tab .tabpanel-during-up .right-content .good-num {
+			padding-left: 5px;
+			color: #b5b5b5;
+		}
+		
+		#tab .tabpanel-during-up .right-content .right-content-wrap {
+			padding-left: 10px;
+		}
+		
+		#tab .tabpanel-during-up .right-content .right-content-userinfo {
+			background-color: #f2f2f2;
+		}
+		
+		#tab .tabpanel-during-up .right-content .right-content-wrap span,
+		#tab .tabpanel-finished> .right-content> .right-content-wrap span {
+			color: #000;
+			display: block;
+			padding: 3px 0px;
+		}
+		
+		#tab .tabpanel-during-up .right-content .buy-num,
+		#tab .tabpanel-finished> .right-content> .right-content-wrap .buy-num {
+			color: #F84241;
+			padding-left: 5px;
+		}
+		#tab .tabpanel-during-up .right-content .title{
+			display: inline-block;
+			width: 55px;
+		}
+		#tab .my-progress-bar span> p {
+			margin-top: 10px;
+			font-size: 12px;
+			color: #6a6a6a;
+		}
+		
+		#tab .my-progress-bar span> p> i {
+			color: #F84241;
+			font-size: .6125rem;
+			padding-left: 2px;
+		}
+		
+		#tab .my-progress-bar span.pull-left {
+			width: 65%;
+			padding-bottom: 12px;
+		}
+		
+		#tab .my-progress-bar span.pull-right {
+			text-align: right;
+			width: 30%;
+			color: #F84241;
+			font-size: .625rem;
+			margin-top: 5px;
+		}
+		
+		#tab .my-progress-bar span.pull-right .btn-kaipai {
+			padding: 4px 20px;
+			border-radius: 3px;
+		}
+		
+		#tab .my-progress-bar .progress-bar-wrap {
+			position: relative;
+			margin-top: 5px;
+		}
+		
+		#tab .my-progress-bar .progress-bar-under {
+			position: absolute;
+			width: 100%;
+			height: 4px;
+			background-color: #c6c6c6;
+			border-radius: 10px;
+		}
+		
+		#tab .my-progress-bar .progress-bar-on {
+			position: absolute;
+			width: 76%;
+			height: 4px;
+			background-color: #f84241;
+			border-radius: 10px;
+		}
+		
+		#tab .tabpanel-during-down {
+			padding: 0 15px;
+		}
+		
+		#tab .tab-content> #category_01> .tabpanel-during {
+			border-bottom: 1px solid #f2f2f2;
+		}
+		
+		#tab .tabpanel-finished {
+			background-color: #fff;
+			padding: 0px 15px 5px 15px;
+		}
+		
+		#tab .tabpanel-finished> .right-content {
+			padding-left: 75px;
+			width: 100%;
+		}
+		
+		#tab .tabpanel-finished> .right-content> .right-content-wrap {
+			background-color: #f2f2f2;
+			padding-left: 8px;
+		}
+		#tab .tab-content .winner-list-item{
+			border-bottom: 10px solid #f2f2f2;
+		}
+		#tab .tabpanel-finished> .right-content> .right-content-wrap span {
+			display: block;
+		}
+		#tab .tabpanel-finished> .right-content> .right-content-wrap .winner-title{
+			font-size: 1.125rem;
+			margin: 0px;
+			padding: 5px 0;
+			color: #F84241;
+		}
+		#tab .tab-content> #category_03 .tabpanel-finished{
+			border-bottom: 1px solid #f2f2f2;
+		}
+		#tab .tab-content .confirm-btn{
+			padding: 0 15px;
+		}
+		#tab .tab-content .confirm-btn span{
+			display: block;
+			width: 100%;
+			height: 45px;
+			line-height: 45px;
+		}
+		#tab .tab-content .confirm-btn span i{
+			color: #999;
+		}
+		#tab .tab-content .confirm-btn span .state{
+			padding-left: 5px;
+			color: #000;
+		}
+		#tab .tab-content .confirm-btn span .btn-kaipai{
+			padding: 3px 10px;
+			margin-top: 9px;
+		}
